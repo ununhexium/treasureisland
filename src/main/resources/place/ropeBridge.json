@@ -1,0 +1,15 @@
+{
+  "description": "Ah... a rope bridge over a river... so typical! I can't see how this is going to sustain my weight. Crossing that quick river underneath it doesn't seem like a better idea.",
+  "steps": [
+    {
+      "actionKey": "bridge",
+      "title": "Let's go for the bridge",
+      "goto": "village1"
+    },
+    {
+      "actionKey": "river",
+      "title": "Been swimming of night, a little bit more won't hurt.",
+      "goto": "river"
+    }
+  ]
+}

@@ -1,3 +1,10 @@
 {
-  "description": "This is the starting screen"
+  "description": "After a long night on that raft, I finally sea something at the surface this deep and dark ocean. I'm fortunate that I didn't sink with that ship, but I don't have much with me. There is this tea, some wine, a pile of parchments and maybe I could use the wood of this raft. On the bright side, today looks like it's going to be sunny.",
+  "steps": [
+    {
+      "actionKey": "beach",
+      "title": "Paddle to the shore",
+      "goto": "theShore"
+    }
+  ]
 }

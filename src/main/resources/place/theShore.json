@@ -1,0 +1,25 @@
+{
+  "description": "Landed, but a long day awaits me. I see I'm not the only one who had some misfortune here. The shipwreck I just passed has been here for a very long time. Also, it looks like there is a fire over there, I hope I'm not alone here... or should I?",
+  "steps": [
+    {
+      "actionKey": "north",
+      "title": "There is a dense jungle a mile away from here. Let's have a look.",
+      "goto": "jungle"
+    },
+    {
+      "actionKey": "east",
+      "title": "Let's have a look where this smoke comes from.",
+      "goto": "ropeBridge"
+    },
+    {
+      "actionKey": "west",
+      "title": "These mountains are surprisingly big for an island of this size. That's the best viewpoint on this island for sure.",
+      "goto": "guard1"
+    },
+    {
+      "actionKey": "south",
+      "title": "I wonder if I could scrape anything for that ruin...",
+      "goto": "shallowWater"
+    }
+  ]
+}

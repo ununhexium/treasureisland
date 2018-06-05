@@ -1,0 +1,10 @@
+{
+  "description": "The stream is too strong and I'm too tired. There is no way I can make it top the other side. This river will bring me back to the sea.",
+  "steps": [
+    {
+      "actionKey": "wait",
+      "title": "Swimming to stay afloat",
+      "goto": "theShore"
+    }
+  ]
+}
