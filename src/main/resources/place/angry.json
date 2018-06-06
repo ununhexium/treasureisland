@@ -1,0 +1,10 @@
+{
+  "description": "The rest of the village quickly surrounds me and takes my amulets back. In less time than it takes to say it, they throw me over the cliff down the sea.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I'm not having the time of my life.",
+      "goto": "theShore"
+    }
+  ]
+}

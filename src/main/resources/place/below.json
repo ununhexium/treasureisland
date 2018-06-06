@@ -1,0 +1,17 @@
+{
+  "description": "No treasure here, only a few bottles of alcohol that the unlucky crew carried here with them.",
+  "steps": [
+    {
+      "actionKey": "wine",
+      "title": "Open the crates of wine",
+      "goto": "wine"
+    },
+    {
+      "actionKey": "mast",
+      "title": "I climb the mast",
+      "goto": "mast"
+    }
+  ]
+}
+
+

@@ -1,0 +1,17 @@
+{
+  "description": "An indigenous guard stands of the road to the mountain. He looks very surprised to see yme, probably because noone ever comes in the part of the island, maybe because I'm whiter than his feather crown.\n\nHe points towards the direction where I saw smoke earlier.",
+  "steps": [
+    {
+      "actionKey": "smoke",
+      "title": "I go towards the smoke.",
+      "goto": "road"
+    },
+    {
+      "actionKey": "avoid",
+      "title": "Try to go around the guard",
+      "goto": "fight"
+    }
+  ]
+}
+
+

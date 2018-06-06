@@ -1,0 +1,13 @@
+{
+  "description": "This monkey doesn't like bananas. It throws a coconut at me to explain it. But I receive it on my head. I pass out. When I wake up, I'm back to the beach I started from.",
+  "steps": [
+    {
+      "actionKey": "beach",
+      "title": "Wake up on the beach",
+      "goto": "theShore"
+    }
+  ]
+}
+
+
+

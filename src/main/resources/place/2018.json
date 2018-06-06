@@ -1,0 +1,10 @@
+{
+  "description": "It's not 2018. Here is a clue: 2018 = 2^1 * 1009^1",
+  "steps": [
+    {
+      "actionKey": "again",
+      "title": "Try again",
+      "goto": "parrot1"
+    }
+  ]
+}

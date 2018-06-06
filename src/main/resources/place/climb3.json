@@ -1,0 +1,22 @@
+{
+  "description": "There I am, the top of the mountain, finally. The monkeys ran away a few meters ago and I can see several bands on poles, flying in the wind: azure, crimson and gold.",
+  "steps": [
+    {
+      "actionKey": "azure",
+      "title": "I go to the azure pole",
+      "goto": "azure"
+    },
+    {
+      "actionKey": "crimson",
+      "title": "I go to the crimson pole",
+      "goto": "crimson"
+    },
+    {
+      "actionKey": "gold",
+      "title": "I go to the golden pole",
+      "goto": "gold"
+    }
+  ]
+}
+
+

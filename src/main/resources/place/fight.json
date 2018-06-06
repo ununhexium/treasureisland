@@ -1,0 +1,10 @@
+{
+  "description": "He doesn't want to let me go through and becomes aggressive. He quickly catches me and the last thing I remember is a hit on the back of my head. Now I'm back where I started from.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "On the beach again.",
+      "goto": "theShore"
+    }
+  ]
+}

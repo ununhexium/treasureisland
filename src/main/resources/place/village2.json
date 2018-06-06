@@ -1,0 +1,17 @@
+{
+  "description": "When I finally arrived at the village, the fire was out and everyone was waiting silent. They saw me. The tallest one of them came to me, with a crown of black feathers on his head. He shows me a scarlet amulet, with the same shape as the one I just found. I show him what I found and his face changed from worried to a bright smile.",
+  "steps": [
+    {
+      "actionKey": "exchange",
+      "title": "I exchange the red amulet for the blue one.",
+      "goto": "exchange"
+    },
+    {
+      "actionKey": "take",
+      "title": "I take the red amulet",
+      "goto": "angry"
+    }
+  ]
+}
+
+

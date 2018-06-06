@@ -1,0 +1,12 @@
+{
+  "description": "This is not the good answer. Here is a clue: 60 = 2^2 * 3^1 * 5^1",
+  "steps": [
+    {
+      "actionKey": "again",
+      "title": "Try again",
+      "goto": "parrot1"
+    }
+  ]
+}
+
+

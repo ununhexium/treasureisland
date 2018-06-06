@@ -1,0 +1,12 @@
+{
+  "description": "I see a large underground river, always with that faint glow on the wall, it looks so beautiful. I try to come closer to it but trip and fall. The current of the river takes me away and brings me back to the beach I started from.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "Beach of soft white sand.",
+      "goto": "theShore"
+    }
+  ]
+}
+
+

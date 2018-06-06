@@ -1,0 +1,15 @@
+{
+  "description": "The who village is watching a shaman, dancing around a fire.",
+  "steps": [
+    {
+      "actionKey": "wait",
+      "title": "I think I'll stay here and wait.",
+      "goto": "wait"
+    },
+    {
+      "actionKey": "interrupt",
+      "title": "I think I'll introduce myself.",
+      "goto": "interrupt"
+    }
+  ]
+}

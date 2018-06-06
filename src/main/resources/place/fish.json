@@ -1,0 +1,12 @@
+{
+  "description": "I try several times to catch a fish but they are very slippery. I can't keep any of them in my hands.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I go back to the cave.",
+      "goto": "cave"
+    }
+  ]
+}
+
+

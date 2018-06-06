@@ -1,0 +1,12 @@
+{
+  "description": "This is an old (coffre fort), glowing intensely between its cracks. Is it the treasure I'm looking for? I open it but what a disapointment. It's the same glow that illuminates the walls of th cave. If any treasure was here, it's now long gone.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I go back to the main cave",
+      "goto": "cave2"
+    }
+  ]
+}
+
+

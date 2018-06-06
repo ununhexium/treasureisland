@@ -1,0 +1,12 @@
+{
+  "description": "The man likes it and proposes some to the whole tribe. He then points again toward the guard on the other side of the island.",
+  "steps": [
+    {
+      "actionKey": "guard",
+      "title": "Now it's time to see that guard again",
+      "goto": "guard2"
+    }
+  ]
+}
+
+

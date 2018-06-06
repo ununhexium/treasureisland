@@ -1,0 +1,12 @@
+{
+  "description": "When opening a create of wine I find a map os this island. This is the best time to have a drink for such a treasure.",
+  "steps": [
+    {
+      "actionKey": "drink",
+      "title": "I drink all the wine.",
+      "goto": "theShore"
+    }
+  ]
+}
+
+

@@ -1,0 +1,17 @@
+{
+  "description": "On my way to the village, I found a blue amulet, like lapis lazulis, on the side of the road. It looks quite nice.",
+  "steps": [
+    {
+      "actionKey": "with",
+      "title": "I take it and go to the village",
+      "goto": "village2"
+    },
+    {
+      "actionKey": "without",
+      "title": "I'll leave it here. The one who lost it will find it again.",
+      "goto": "village3"
+    }
+  ]
+}
+
+

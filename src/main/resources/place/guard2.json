@@ -1,0 +1,17 @@
+{
+  "description": "I come back and show the red amulet I just received. He silently walks aside and watches me carefully.",
+  "steps": [
+    {
+      "actionKey": "mountain",
+      "title": "Continue on the path.",
+      "goto": "mountain"
+    },
+    {
+      "actionKey": "north",
+      "title": "Change direction and go north.",
+      "goto": "jungle"
+    }
+  ]
+}
+
+

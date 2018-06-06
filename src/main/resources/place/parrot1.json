@@ -1,0 +1,20 @@
+{
+  "description": "After walking for a while, I hear a parrot calling my name. I walk to it and it asks me to solve this 'riddle':\nKey^2^2 . 3^1 . 41^1\nThat's a savvy parrot!",
+  "steps": [
+    {
+      "actionKey": "1968",
+      "title": "1968 I guess",
+      "goto": "1968"
+    },
+    {
+      "actionKey": "60",
+      "title": "60 I guess",
+      "goto": "bad_60"
+    },
+    {
+      "actionKey": "2018",
+      "title": "2018 I guess",
+      "goto": "2018"
+    }
+  ]
+}

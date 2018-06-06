@@ -1,0 +1,12 @@
+{
+  "description": "The intense red stripes cut the blue sky in half. I can see human shapes drawn on one of them.",
+  "steps": [
+    {
+      "actionKey": "back",
+      "title": "I step back",
+      "goto": "climb3"
+    }
+  ]
+}
+
+

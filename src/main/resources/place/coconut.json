@@ -1,0 +1,10 @@
+{
+  "description": "The monkey likes coconuts. It gives me a key shaped like a 2. Then it points to the west and throws bananas at me.",
+  "steps": [
+    {
+      "actionKey": "west",
+      "title": "Walk to the west",
+      "goto": "parrot1"
+    }
+  ]
+}

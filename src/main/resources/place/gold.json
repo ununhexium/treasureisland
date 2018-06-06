@@ -1,0 +1,12 @@
+{
+  "description": "COMMENT: So here in the book he's got to find which stripe is attached to the book. I can't reproduce that in here, sorry.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I got the golden book. But did I explore the whole island?",
+      "goto": "theShore"
+    }
+  ]
+}
+
+

@@ -1,4 +1,4 @@
-package net.lab0.treasure.cli
+package net.lab0.treasure.shell
 
 import net.lab0.treasure.structure.Game
 import net.lab0.treasure.structure.Page
@@ -7,8 +7,15 @@ import org.springframework.shell.standard.ShellComponent
 import org.springframework.shell.standard.ShellMethod
 
 @ShellComponent("Main menu")
-class Menu(private val game: Game)
+class GamePad(private val game: Game)
 {
+  @ShellMethod("Checks the integrity of the game")
+  fun checkIntegrity(): String
+  {
+    val count = game.followAllPaths()
+    return "Found $count pages."
+  }
+
   fun startAvailability() = if (!game.hasHistory)
   {
     Availability.available()
@@ -43,7 +50,7 @@ class Menu(private val game: Game)
   @ShellMethod("Go to the only available page")
   fun next() = game.next()
 
-  fun nextAvailability() = if (game.currentPage.noChoice)
+  fun nextAvailability() = if (game.hasHistory && game.currentPage.noChoice)
   {
     Availability.available()
   }

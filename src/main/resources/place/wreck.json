@@ -1,0 +1,17 @@
+{
+  "description": "This wooden ship wreck seems to have been there for an eternity. Everything is rotten and threatens to break on each step I take.",
+  "steps": [
+    {
+      "actionKey": "below",
+      "title": "I swim below deck in hope to find something there.",
+      "goto": "below"
+    },
+    {
+      "actionKey": "mast",
+      "title": "I climb the mast",
+      "goto": "mast"
+    }
+  ]
+}
+
+

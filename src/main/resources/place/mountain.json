@@ -1,0 +1,17 @@
+{
+  "description": "On the west side of this island i this small mountains, much more like hills actually. I perceive some cave between 2 rocks and at the top, flag fly in the wind.",
+  "steps": [
+    {
+      "actionKey": "climb",
+      "title": "I start climbing the mountain",
+      "goto": "climb1"
+    },
+    {
+      "actionKey": "cave",
+      "title": "I go down in the cave",
+      "goto": "cave"
+    }
+  ]
+}
+
+

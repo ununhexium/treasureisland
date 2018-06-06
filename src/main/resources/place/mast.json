@@ -1,0 +1,12 @@
+{
+  "description": "While climbing to mast, the wood cracked and I fell in the see. The current brought me back to the beach.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I got carried away by the current",
+      "goto": "theShore"
+    }
+  ]
+}
+
+

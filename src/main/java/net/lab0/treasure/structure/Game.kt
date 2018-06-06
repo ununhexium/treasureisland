@@ -5,12 +5,19 @@ import com.fasterxml.jackson.module.kotlin.readValue
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import com.google.common.io.Resources
 import net.lab0.treasure.exception.BadAction
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Component
 import java.nio.charset.StandardCharsets
 
 @Component
 class Game
 {
+  companion object
+  {
+    private val log: Logger by lazy { LoggerFactory.getLogger(this::class.java.name) }
+  }
+
   private val mapper by lazy {
     val mapper = ObjectMapper()
     mapper.registerKotlinModule()
@@ -18,9 +25,15 @@ class Game
 
   fun goto(id: String)
   {
+    history += loadPage(id)
+  }
+
+  private fun loadPage(id: String): Page
+  {
     val url = Resources.getResource("place/$id.json")
     val json = Resources.toString(url, StandardCharsets.UTF_8)
-    history += mapper.readValue<Page>(json)
+    val page = mapper.readValue<Page>(json)
+    return page
   }
 
   fun go(action: String): Page
@@ -47,6 +60,27 @@ class Game
     }
 
     return currentPage
+  }
+
+  fun followAllPaths(): Int
+  {
+    val toBrowse = mutableSetOf("start")
+    val done = mutableSetOf<String>()
+
+    while (!toBrowse.isEmpty())
+    {
+      val current = toBrowse.first()
+      val page = loadPage(current)
+      done.add(current)
+
+      val newFound = page.steps.map { it.goto }.filter { it !in done }
+      toBrowse.addAll(newFound)
+      toBrowse.remove(current)
+
+      log.info("browsed {} | newly found {}", current, newFound)
+    }
+
+    return done.size
   }
 
   private val history = mutableListOf<Page>()

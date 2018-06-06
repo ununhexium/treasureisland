@@ -1,0 +1,15 @@
+{
+  "description": "The shaman is angry at me. He shouts something I can't understand at me.",
+  "steps": [
+    {
+      "actionKey": "red",
+      "title": "I offer some red tea.",
+      "goto": "tea1"
+    },
+    {
+      "actionKey": "black",
+      "title": "I offer some black tea.",
+      "goto": "tea1"
+    }
+  ]
+}

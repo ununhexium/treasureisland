@@ -1,0 +1,22 @@
+{
+  "description": "This cave is much larger and deeper than it looked from the entrance. The walls are full of glowing mushrooms.",
+  "steps": [
+    {
+      "actionKey": "explore",
+      "title": "I keep exploring the cave.",
+      "goto": "cave3"
+    },
+    {
+      "actionKey": "rock",
+      "title": "I see a very interresting feldspath formation.",
+      "goto": "cave2"
+    },
+    {
+      "actionKey": "shiny",
+      "title": "I see something more shiny in a corner",
+      "goto": "cave4"
+    }
+  ]
+}
+
+

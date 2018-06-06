@@ -1,0 +1,17 @@
+{
+  "description": "The tall man says something, pointing to where I came from and mimicking the behaviour of the guard I saw earlier.",
+  "steps": [
+    {
+      "actionKey": "guard",
+      "title": "I go to the guard without loosing time. They may change their minds later.",
+      "goto": "guard2"
+    },
+    {
+      "actionKey": "tea",
+      "title": "These are nice people. Let's have a cup of tea together! :D",
+      "goto": "tea2"
+    }
+  ]
+}
+
+

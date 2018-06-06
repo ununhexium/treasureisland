@@ -1,0 +1,17 @@
+{
+  "description": "When climbing, a monkey started to follow me. His gimmick were quite funny but I don't speak monkey language fluently. Does he want me to follow it?",
+  "steps": [
+    {
+      "actionKey": "climb",
+      "title": "I continue climbing",
+      "goto": "climb2"
+    },
+    {
+      "actionKey": "monkey",
+      "title": "I switch paths and follow the monkey",
+      "goto": "jungle"
+    }
+  ]
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "description": "The shaman doesn't like tea, it's too dry to eat. He throws me over the cliff down to the sea.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I wake up on the beach I came from.",
+      "goto": "theShore"
+    }
+  ]
+}

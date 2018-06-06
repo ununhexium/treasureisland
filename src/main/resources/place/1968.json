@@ -1,0 +1,10 @@
+{
+  "description": "Find the odd one out and go to that page.\n83\n87\n85\n75\n61\n67\n63\n77\n89\n60\n69\n71\n65\n81\n73\n79\n91",
+  "steps": [
+    {
+      "actionKey": "60",
+      "title": "Paddle to the shore",
+      "goto": "happybirthday"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "description": "I'm almost at the top, another group of monkeys came and are now trying to pull me away from the top of the mountain.",
+  "steps": [
+    {
+      "actionKey": "climb",
+      "title": "I escape them and continue climbing",
+      "goto": "climb3"
+    },
+    {
+      "actionKey": "monkey",
+      "title": "I switch paths and follow the monkeys",
+      "goto": "jungle"
+    }
+  ]
+}
+
+

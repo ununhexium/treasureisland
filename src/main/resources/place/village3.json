@@ -1,0 +1,12 @@
+{
+  "description": "When I finally arrived at the village, the fire was out and everyone was waiting silent. They saw me. The tallest one of them came to me, with a crown of black feathers on his head. He shows me a scarlet amulet, with the same shape as the one I just saw on the way. I try to explain him that I saw the same earlier, but he doesn't understand and gets angry.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "Same beach again",
+      "goto": "theShore"
+    }
+  ]
+}
+
+

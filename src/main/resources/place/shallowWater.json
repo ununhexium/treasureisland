@@ -1,0 +1,17 @@
+{
+  "description": "I start swimming but I notice a shark's fin not so far away. It's still quite far.",
+  "steps": [
+    {
+      "actionKey": "swim",
+      "title": "I swim faster to the ship wreck.",
+      "goto": "wreck"
+    },
+    {
+      "actionKey": "beach",
+      "title": "I return to the beach",
+      "goto": "theShore"
+    }
+  ]
+}
+
+

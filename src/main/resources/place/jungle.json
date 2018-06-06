@@ -1,0 +1,15 @@
+{
+  "description": "A monkey hangs on a rope between two palm trees. One has coconuts, the other one has bananas growing on it. It has a key in its hand. That's something I could use! I don't know where yet, but I  want it.",
+  "steps": [
+    {
+      "actionKey": "banana",
+      "title": "Give the monkey it a banana",
+      "goto": "banana"
+    },
+    {
+      "actionKey": "coconut",
+      "title": "Give the monkey it a coconut",
+      "goto": "coconut"
+    }
+  ]
+}

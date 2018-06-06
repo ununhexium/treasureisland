@@ -18,6 +18,8 @@ data class Page(
       |$description
       |
       |$actions
+      |
+      |
     """.trimMargin()
   }
 

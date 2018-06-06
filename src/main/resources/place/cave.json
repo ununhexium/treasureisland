@@ -1,0 +1,17 @@
+{
+  "description": "The cave is humid and dark. I try to sneak in the narrow space between the rocks and trip. I fall in a freshwater pond, filled of glowing fishes.",
+  "steps": [
+    {
+      "actionKey": "fish",
+      "title": "I catch a fish",
+      "goto": "fish"
+    },
+    {
+      "actionKey": "explore",
+      "title": "I explore the cave",
+      "goto": "cave2"
+    }
+  ]
+}
+
+

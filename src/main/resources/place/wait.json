@@ -1,0 +1,10 @@
+{
+  "description": "After the ritual is over the shaman notices me. A deep silence filled the village for a few seconds. He then shouts something and throws a power in my eyes. In no time the whole tribe surrounds me. I try to run away but trip and fall over the cliff.",
+  "steps": [
+    {
+      "actionKey": "next",
+      "title": "I forget what happens and wake up on the beach.",
+      "goto": "theShore"
+    }
+  ]
+}
