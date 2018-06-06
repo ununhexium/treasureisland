@@ -4,14 +4,16 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import com.google.common.io.Resources
+import net.lab0.treasure.event.NewPageEvent
 import net.lab0.treasure.exception.BadAction
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
+import org.springframework.context.ApplicationEventPublisher
 import org.springframework.stereotype.Component
 import java.nio.charset.StandardCharsets
 
 @Component
-class Game
+class Game(private val applicationEventPublisher: ApplicationEventPublisher)
 {
   companion object
   {
@@ -26,6 +28,7 @@ class Game
   fun goto(id: String)
   {
     history += loadPage(id)
+    applicationEventPublisher.publishEvent(NewPageEvent(this, id))
   }
 
   private fun loadPage(id: String): Page
